@@ -41,5 +41,7 @@ bash CloneWeb.sh
 ## Solution for Windows WLS or MAC/Linux
 1. Exit CloneWeb
 2. Download Ngrok - https://ngrok.com/download
-3. Replace the Ngrok from CloneWeb directory
-4. Run CloneWeb again
+3. Setup Ngrok through documentation.
+4. The CloneWeb is hosted on `http://localhost:5000`
+5. Use ngrok: `ngrok http 3333` to get a https url.
+6. You can also use other services for port forwarding.
